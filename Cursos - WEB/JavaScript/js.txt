@@ -14,3 +14,23 @@ Marcador
 
 type qual tipode texto contido, 
 src local do arquivo .js caso seja usado um arquivo externo. contem codigo JavaScript.
+
+XHTML: Estrutura 
+
+CSS: Estilo
+
+JavaScript: Acão
+
+Java Script
+
+MANIPULAR
+	. Conteúdo
+	. Apresentaçãp
+	. Navegador
+
+INTERAGIR
+	. Usuário
+	. Formulários
+	. Linguagens dinâmicas
+
+	
