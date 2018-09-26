@@ -1,12 +1,16 @@
-JavaScript
-Linguaguem interpretada e n�o compilada
-N�o � uma vers�o script do Java
-Renomeada para ECMAScript
+JavaScript   - ECMAScript
+Linguaguem interpretada e n�o compilada
+---Possui orientação a objetos baseada em protótipos não possuindo classes
+ --- A Linguagem possui uma tipagem fraca e dinÂmica tomar cuidado com a liberdade
+ === possui funções de primeira classe
+ não apresenda supor pogramação multi-thread
+N�o � uma vers�o script do Java
+Renomeada para ECMAScript 6
 Executada a partir de um navegador, ou ainda em ums servidor Web ou dentro de arquivos especificos 
-Usada para interagir com usu�rios e cirada inicialmente  para validar entradas em formularios HTML.
-atualmente usada em aplica��es amplas.
-Coloca dentro de uma p�gina HTML dentro <head>...</head>
-ou fora em arquivo separado extens�o .js
+Usada para interagir com usu�rios e cirada inicialmente  para validar entradas em formularios HTML.
+atualmente usada em aplica��es amplas.
+Coloca dentro de uma p�gina HTML dentro <head>...</head>
+ou fora em arquivo separado extens�o .js
 Marcador
 <script type>
 	
@@ -19,18 +23,108 @@ XHTML: Estrutura
 
 CSS: Estilo
 
-JavaScript: Ac�o
+JavaScript: Ac�o
 
 Java Script
 
 MANIPULAR
-	. Conte�do
-	. Apresenta��p
+	. Conte�do
+	. Apresenta��p
 	. Navegador
 
 INTERAGIR
-	. Usu�rio
-	. Formul�rios
-	. Linguagens din�micas
+	. Usu�rio
+	. Formul�rios
+	. Linguagens din�micas
+
+Conceito B�sicos 
+
+	. JavaScript (Linguagem de Script)
+	. Browser (Ambiente de Hospedagem)
+	. Objetos (Propiedades e M�todos)
+
+Pessoa
+(atributos)altura, peso, profissao
+(metodos e fun��es) andar(), dormir(), trabalhar()
+
+Pessoa.altura;
+Pessoa.andar();
+	
+Objetos JavaScript
+	. Objetos Internos (string, date number)
+	. Objetos do Browser(window, document)
+	. Objetos Personalizados (Pessoa)
+
+Manipuladores de Eventos
+
+Variáveis
+	. Sintaxe
+	. Tipos Primitivos
+		string
+		number
+		boolean
+		undefined
+		null vazio
+		NaN - não é o número
+		infinity
+
+	Exemplos:
 
 	
+    alert(nome);
+
+    var nome = "L\"ael"; //stringg
+    var nome = "lael\nsantos\n\u7231";
+    var nome;//undefined
+    var nome = null;//null
+    nome =  3* "pessoas"; //NaN
+    nome = 1.79762354685251854e+309; //Infinity
+    nome = 2  + Infinity;
+
+    const HORAS_DO_DIA = 24;
+
+	<img id="xti" onmouseover="alert('Olá');" src="xlamp_off.png"/>
+    <img id="xti" onclick="alert('Olá');" src="xlamp_off.png"/> 
+	
+
+	. Nomenclatura
+----------------------------------------------------------------------------------------
+Variáveis:
+
+As Variáveis devem ser criadas seguindo as regras:
+
+* Devem começa por uma letra, $(frameroks, injeções, $escopo ) ou _"privado" (dentro de funções)
+
+*  Após primeira letra, podem conter números
+
+* Pela convenção, começam com letra minuscula e usam camelCase
+
+* São case-sensitive
+
+Tipos de dados:
+
+## Palavras chave reservadas do JavaScript ECMAScript e Browser (Pesquisar!)
+	Nunca criar Variáveis com mesmo nome das reservadas.
+
+Camadas 
+
+* XHTML(HTML), CSS, JavaScript
+
+Adicionar JavaScript
+
+	. Iline -  dentro da tag
+	. Incorporado - usa tag script dentro do html
+	. externo - criar diretorio com arquivo externo e é a forma que deve se usar
+
+Comentaios
+	. linha única
+	. linhas multiplas
+
+----------------------------------------------------------------------------------------------
+0PERADORES JavaScript
+
+ +  -  *  / ...
+
+ operadores
+ 
+

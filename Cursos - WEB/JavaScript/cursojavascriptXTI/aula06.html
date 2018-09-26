@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+            <head>
+            <meta charset="UTF-8">
+            <title>Java Script Aula 05</title>
+               <style>
+                   body {background-color: #000;}
+                   #xti {display: block; margin: 20px auto;}
+               </style> 
+               <script type="text/javascript">
+                    function ligar(){
+                        //var nome = "L\"ael"; //stringg
+                        // var nome = "lael\nsantos\n\u7231";
+                         
+                         var nome;//undefined
+                         var nome = null;//null
+                         nome =  3* "pessoas"; //NaN
+                         nome = 1.79762354685251854e+309; //Infinity
+                         nome = 2  + Infinity;
+                        
+                        const HORAS_DO_DIA = 24;
+
+                        alert(nome);
+
+                        window.document.getElementById("xti").src = "img/xlamp_on.png";
+                    }
+                  
+               </script>
+        </head>
+        <!-- onload="alert('carregado')"   -->
+        <body >
+            <!-- <img id="xti" onmouseover="alert('Olá');" src="xlamp_off.png"/>
+            <img id="xti" onclick="alert('Olá');" src="xlamp_off.png"/> -->
+            <img id="xti" onclick="ligar();" src="img/xlamp_off.png"/>
+            
+        </body>
+    </html>
