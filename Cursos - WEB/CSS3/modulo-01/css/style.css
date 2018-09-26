@@ -1,0 +1,206 @@
+/* Aula 01
+h1{
+    color: blue;
+    font-size: 60px;
+    font-family: tahoma;
+}*/
+
+/*Aula 02 e 03 */
+/*seletor universal*/
+/* * {
+    margin: 0;
+    padding: 0; 
+}*/
+/*seletor tag*/
+/* p{
+    color: green;
+    font-size: 12px;
+}
+
+h1{
+    color:blue;
+    font-size: 50px
+}
+
+
+
+input[type="text"]{
+    width: 200px;
+    background-color: #ccc;
+    height: 35px;
+    border:none;
+}
+input[name="email"]{
+    width: 200px;
+    background-color: #ccc;
+    height: 35px;
+    border:none;
+}
+
+input[ type="submit"]{
+    width: 50px;
+    background-color: green;
+    height: 35px;
+    border: node;
+    cursor: pointer;
+    color:#fff
+
+} */
+/*** Aula 04 --  Agrupar  seletores todos em um apenas
+/* h1, h2, p {
+    color: red;
+    text-align: center;
+} */
+/***Aula 05 - Classe precedido de ponto (.) e id precidido de (#) */
+/* 
+.texto-principal {
+    color: red;
+    text-align: center;
+}
+
+.fundo-principal{
+    background-color: green; padding: 20px;
+}
+
+#conteudo {
+    background-color: blue;
+    padding: 20px;
+    color: green;
+} */
+
+
+/*Aula 06 -- Dimensão width: 80%;
+height: 100px; */
+/* #conteudo {
+    min-width: 500px;
+    min-height: 20px;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+
+} */
+/* AULA07
+ padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px; */
+/*Espaçamento interno
+#exemplo{
+    background-color: green;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    padding:10px 20px 30px 30px
+    
+}*/
+/*Espaçamento externo
+/* margin-top: 20px;
+margin-left: 20px 
+#exemplo2{
+    background-color: red;
+    color: #fff;\
+    width: 500px;
+    margin: 20px 30px 20px 40px; 
+}
+*/
+/*** AULA 08 e 09 - Text 
+justify, uppercase, lowercase. text-decoration: node;
+p {color:red; text-transform: justify; text-indent:20px; 
+    line-height: 25px; direction: ltr;letter-spacing: 2px;word-spacing: 4px}
+h1{text-align: left; text-decoration: underline; text-shadow: 1px 30px red;}
+h2{text-align:right; text-decoration: overline}
+h3{text-align: center; text-decoration: line-through}
+*/
+/* AULA 10
+*{box-sizing: border-box;}
+#conteudo{background-color: red; width: 300px; padding: 20px; box-shadow:  10px 10px 5px green}
+*/
+/* AULA 11
+#conteudo{background-color: red; width: 300px;height: 70px;overflow: auto;}
+#conteudo p{opacity: 0;} */
+
+/*AULA 12 border-top-left-radius 
+#bloco{background-color: green; width: 300px; height: 150px;border-radius: 20px 50px 100px 0px;}
+*/
+/* Aula 13 14 e 15 font-variant:small-caps*/
+/* *{font-size: 100% } */
+/* p{font-family:Arial,Verdana,sans-serif; font-weight: bold; font-style: italic; font-size: 1em;} */
+/* @font-face{
+    font-family: open_sans;
+    src:url(opensans-regular-wbefont.woff);
+}
+p{font-family: open_sans; font-size: 2.5em} */
+/* 
+p{font-family: 'Chicle', cursive; font-size: 1.2em} */
+/* Aula 16 e 17
+#cores {width: 200px; height: 200px; background-color: blue;} */
+/* #cores {width: 200px; height: 200px; background-color:#40b78c ;} */
+/* #cores {width: 200px; height: 200px; background-color:rgba(230,89,225, 0.5);} */
+/* #cores {width: 200px; height: 200px; background-color:hsla(20,100%,59%, 0.2) ;}
+#cores {width: 200px; height: 200px; background: linear-gradient(to top left, red,blue, green);} */
+
+/* #cores {width: 200px; height: 200px; background: linear-gradient(45deg,rgba(255,0,0,0),blue, green);} */
+
+/* 
+#cores {width: 200px; height: 200px; background: radial-gradient( red,blue, green);} */
+
+/* Aula 17 ------------------------------------------------- */
+
+/* #base {background-color: green; width: 600px; height: 600px;}
+#esquerda{background-color: red; width: 300px; height: 300px; float: left;}
+
+#direita{background-color: blue; width: 300px; height: 300px; float: right; } */
+/* Aula 18 
+#conteudo{width: 600px; height: 1200px; background-color: red;}
+/* #texto{
+    width: 500px; 
+    background-color: green; 
+    position: absolute;
+    left: 0px;
+    top: 40px;
+} */
+/* #texto{
+    width: 500px; 
+    background-color: green; 
+    position: relative;
+    left: 0px;
+    top: 40px;
+} */
+/*
+#texto{
+    width: 500px; 
+    background-color: green; 
+    position: fixed;
+    left: 0px; /*right e bottom
+    top: 0px;
+}
+*/
+/* Aula 19  - 20 dotted - dashed -  solid - double - groove -ridge
+inset - outset*/
+/* #exemplo {border-style: solid; border-width: 5px;border-color: red;} */
+/* #exemplo{border-bottom: solid 5px red; outline:dotted 5px green;} */
+
+/* Aula 20
+ #exemplo{width: 200px; height: 200px; 
+    background-color: red;
+    transition-property:width; 
+    transition-duration:2s; 
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    } */
+    /* #exemplo{width: 200px; height: 200px; 
+        background-color: red;
+        transition: width 2s linear 1s,height 2s linear;
+        } */
+ 
+        /* #exemplo{width: 200px; height: 200px; 
+            background-color: red;
+            transition: all 2s linear;
+            }
+        #exemplo:hover{width: 350px; height: 350px; background-color: green;} */
+/* body{background-image: url(../img/bg.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100% } */
+/* body{background:url(../img/bg.jpg) center center/100% 100% no-repeat fixed } */
+
+*{margin:0; padding: 0;}
+nav{width: 100vw; height: 80px; background-color: blue;}
+.banner{width: 100vw; height: calc(100vh - 80px); background-image: url(../img/bg.jpg); background-size:cover;}

@@ -1,0 +1,57 @@
+Curso de HTML 5 -- AULA 01 -- Hiper text markup languge
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
+
+
+
+TAGS ---
+<header>
+<nav>
+<section>
+<aside>
+<article>
+<footer>
+
+Exemplo e padrão css
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+	<style>
+	</style>
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
+

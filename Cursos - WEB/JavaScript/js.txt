@@ -1,0 +1,16 @@
+JavaScript
+Linguaguem interpretada e não compilada
+Não é uma versão script do Java
+Renomeada para ECMAScript
+Executada a partir de um navegador, ou ainda em ums servidor Web ou dentro de arquivos especificos 
+Usada para interagir com usuários e cirada inicialmente  para validar entradas em formularios HTML.
+atualmente usada em aplicações amplas.
+Coloca dentro de uma página HTML dentro <head>...</head>
+ou fora em arquivo separado extensão .js
+Marcador
+<script type>
+	
+</script>
+
+type qual tipode texto contido, 
+src local do arquivo .js caso seja usado um arquivo externo. contem codigo JavaScript.

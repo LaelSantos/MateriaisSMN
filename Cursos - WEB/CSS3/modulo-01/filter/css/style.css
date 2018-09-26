@@ -1,0 +1,11 @@
+/* img{ margin: 40px 0 0 60px; filter: blur(4px)} */
+/* img{ margin: 40px 0 0 60px; filter: brightness(20%)} */
+/* img{ margin: 40px 0 0 60px; filter: contrast(150%)} */
+/* img{ margin: 40px 0 0 60px; filter: grayscale(50%)} */
+/* img{ margin: 40px 0 0 60px; filter: invert(100%)} */
+/* img{ margin: 40px 0 0 60px; filter: opacity(10%)} */
+/* img{ margin: 40px 0 0 60px; filter: saturate(60%)} */
+/* img{ margin: 40px 0 0 60px; filter: sepia(100%)} */
+/* img{ margin: 40px 0 0 60px; filter: hue-rotate(100deg)} */
+/* img{ margin: 40px 0 0 60px; filter: drop-shadow(10px 20px 5px #000)} */
+img{ margin: 40px 0 0 60px; filter: drop-shadow(10px 20px 5px #000) contrast(150%)}

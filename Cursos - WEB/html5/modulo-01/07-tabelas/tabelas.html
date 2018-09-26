@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+        <title>Tabelas</title>
+
+    <style>
+        table, th, td{
+            border:1px solid #000;
+        }
+        th, td{
+            padding: 7px;
+        }
+        .nome{
+            background-color: red; 
+        }
+        .email{
+            background-color: green;
+        }
+        .telefone{
+            background-color: blue;
+        }
+        .cargo{
+            background-color: yellow;
+        }
+    </style>    
+
+    </head>
+
+    <body>
+        <h1>Tabelas</h1>
+
+        <table> <!--tabela-->
+            <caption>Cadastro de clientes</caption>
+            <colgroup>
+                <col class="nome">
+                <col class="email">
+                <col class="telefone">
+                <col class="cargo">
+            </colgroup>
+            <thead>
+            <tr> <!--Linha-->
+                <!--coluna -- titulo-->
+                <th> Nome:</th>
+                <th>Email:</th>
+                <th>Telefone:</th>
+                <th>Cargo:</th>
+                
+            </tr>
+            </thead>
+            
+            <tbody>
+            <tr>
+                <!--coluna -- conteudo-->
+                <td>Lael</td>
+                <td>lael@email.com </td>
+                <td>(34)990-987</td>
+                <td rowspan="2">Desenvolvedor Web</td>
+            </tr>    
+            <tr>
+                 <!--coluna -- conteudo-->
+                 <td>Josiel</td>
+                 <td>josiel@email.com</td> 
+                 <td>(34)9908-9870</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="4">Total: 2</td>
+            </tr>
+            </tfoot>
+        </table>
+    </body>
+
+</html>
