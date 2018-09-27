@@ -228,5 +228,27 @@
 
 // console.log(frutas.map(todos));
 
+var data = new Date();
+var data = new Date(123456);
+var data = new Date("Jul/20/2011 05:00");
+var data = new Date(2011,2,22,4, 35, 30, 1234);
+
+dias = [
+    "Domingo",
+    "Segunda-Feira",
+    "Terça-Feira",
+    "Quarta-Feira",
+    "Quinta-Feira",
+   " Sexta-Feira",
+    "Sábado"
+];
+var data = new Date("Jul/20/2018, 04:30");
+console.log(data);
+
+// console.log(data.getHours());
+// console.log(data.getUTCHours());
 
 
+console.log(data.getDate());
+
+console.log(data.getDay());
