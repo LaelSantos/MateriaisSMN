@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+        <meta charset="UTF-8">
+        <title>Java Script Aula 06</title>
+        <style type="text/css">
+            fieldset{ width: 140px;}
+            label { display: block; float: left;}
+            label, input { width: 68px; margin:3px 0;}
+            th, td {
+                border: 1px solid #ccc;
+                font-size: 0.8em;
+            }
+        </style>
+        <script type="text/javascript" src="js/aula14.js"></script>
+        </head>
+        
+        <body >
+        <form id="formulario">
+        <fieldset>    
+            <legend>Cálculo do IMC</legend>
+        
+            <label for="kilos">Kilos:</label>
+            <input type="text" name="kilos" />
+            <br>
+            
+            <label for="metros">Metros:</label>
+            <input type="text" name="metros" />
+            <br>
+            
+            <label for="centimetros">Cm:</label>
+            <input type="text" name="centimetros" />
+            <br>
+            
+            <label for="imc">IMC:</label>
+            <input type="text" name="imc" disabled="disabled" />
+            <br>
+            <a href="#" onclick="calcularIMC();" >Calcular</a>
+        </fieldset> 
+    </form>
+    <table>
+        <tr><th>IMC</th><th>Classificação</th></tr>
+        <tr><th>&lt;20</th><th>Abaixo do Peso</th></tr>
+        <tr><th>20 a 25</th><th>Peso Ideal</th></tr>
+        <tr><th>25 a 30</th><th>Sobrepeso</th></tr>
+        <tr><th>30 a 35</th><th>Obesidade Moderada</th></tr>
+        <tr><th>35 a 40</th><th>Obesidade Severa</th></tr>
+        <tr><th>40 a 50</th><th>Obesidade Mórbida</th></tr>
+        <tr><th>&gt; 50</th><th>Super Obesidade</th></tr>
+    </table>
+    
+    </body>
+ </html>

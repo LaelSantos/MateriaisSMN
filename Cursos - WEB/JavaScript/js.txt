@@ -125,6 +125,105 @@ Comentaios
 
  +  -  *  / ...
 
- operadores
- 
+ operadores de comparação
 
+ == Igual
+
+ === Identidade (valor e tipo de dados iguais)
+
+ != Diferente
+ 
+ !== Identidade Diferente
+
+ > Maior
+
+ < Menor
+ 
+>= Maior ou igual
+
+<= Menor ou igual
+
+
+operadores lógicos
+
+&& AND (e)
+|| OR (ou)
+! NOT (NÃO)
+
+Operadores de atribuição
+
++= Adição
+-= Subtração
+*= Divisão
+%= Módulo
+
+Operadores de Bit(Bitwise)
+
+Operadores especiais
+
+?: 		 	Operador Ternário
+,		 	Separa expressões avaliadas
+delete		Apaga operando
+in 			indica se existe a Propiedade especificada
+instanceof	indica se o objeto é do tipo especificado
+new			cria nova instancia de objeto
+this	 	referencia ao objeto atual
+typeof 		retorna o tipo do operando
+() 			chama uma função
+
+
+Declarações para estruturas
+
+	- Controle
+		var 
+		function
+		return
+	- Condicionais
+		if/else
+		switch
+		case
+		break
+		default
+	- Loop
+		for/in	
+		continue
+		do/while
+	- Exceções
+		throw
+		try/catch/finally
+		with
+		;
+
+objeto error
+	message
+	name
+	toString()
+
+
+evalError 		Erro usando eval()
+RangeError		Numero estrapola limites
+ReferenceError	referencia a valor indefinido
+SintaxeError	erro de sintaxe da Linguagem
+typeError		operando diferente do esperado
+URIError		USo errado de funções URI
+
+
+
+TIPOS Primitivos	
+	boolean, number, string
+
+OBJETOS JavaScript
+
+Object	function
+boolean(true false) error
+number	evalError
+String 	RangeError
+Array	ReferenceError
+date	SintaxeError
+math	typeError
+regExp	URIError
+
+"Zero, null, NaN e string vazia são inerentemente false; todo o resto é inerentemente true".
+
+
+Array coleção de dados
