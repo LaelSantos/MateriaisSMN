@@ -233,7 +233,7 @@ var data = new Date(123456);
 var data = new Date("Jul/20/2011 05:00");
 var data = new Date(2011,2,22,4, 35, 30, 1234);
 
-dias = [
+var dias = [
     "Domingo",
     "Segunda-Feira",
     "Terça-Feira",
@@ -242,13 +242,28 @@ dias = [
    " Sexta-Feira",
     "Sábado"
 ];
+var mes = ["janeiro", "fevereiro","março", "abril", "maio", "junho","julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
 var data = new Date("Jul/20/2018, 04:30");
+
+data.setFullYear(2016);
+data.setDate(26)
+data.setMonth(10);
 console.log(data);
+console.log(data.toDateString());
+console.log(data.toLocaleDateString());
+// console.log(data.getTimezoneOffset());
+// console.log(Date.parse(data));
 
-// console.log(data.getHours());
-// console.log(data.getUTCHours());
+// console.log(data.getFullYear(), "Ano");
+// console.log(dias[data.getDay()], "Dia da semana");
+// console.log(data.getDate(), "Data");
 
-
-console.log(data.getDate());
-
-console.log(data.getDay());
+// console.log(data.getHours(), "Hora");
+// console.log(data.getUTCHours(), "HorasUTC");
+// console.log(data.getDay(), "Dia");
+// console.log(data.getMilliseconds(), "Milisegundos");
+// console.log(data.getMinutes(), "Minutos");
+// console.log(data.getSeconds(), "Segundos");
+// console.log(data.getMonth(), "Mês");
+// console.log(data.getTime(), "Quantidade total");
+// console.log(mes[data.getMonth()], "Mês");

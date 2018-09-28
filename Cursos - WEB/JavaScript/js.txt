@@ -227,3 +227,15 @@ regExp	URIError
 
 
 Array coleção de dados
+
+
+
+metodo set altera e metodo get recupera informação
+
+EVENTOS
+
+Eventos são interações com documento Web
+
+EVENTO é a ação
+manipulador de evento é a função da ação
+
