@@ -1,0 +1,69 @@
+jQuery -- HTML5 CSS3 JavaScript
+
+-- Biblioteca JavaScript foi criada pra simplificar
+a maneira que programamos JavaScript, trabalhar de forma rapida
+
+"Escreva menos e faça mais"
+
+porque usar jQuery?
+
+01 - Produtividade
+
+02 -  Aberta e Livre
+
+03 - Pequena(29K)
+
+04 - Muito Popular
+
+05 - Acaba com diferenças entre os Browsers
+
+06 -  + 5000 plugins
+
+07 - Bem documentada
+
+08 -  Evita conflitos com outras Bibliotecas
+
+09 - Apoio da comunidade
+
+10 - Desenvolvimento Aberto
+
+11 - Atualizações constantes
+
+12 - Google, Microsoft, Dell usam 
+
+13 - Segue padrões W3C
+
+14 - Testta no Firefox, Chrome, IE, Opera
+
+15 - Designer e Programadores
+
+16 - Virou padrão de uso JavaScript
+
+17 = Facil de usar
+
+18 -  Usa JavaScript não obstrutiva
+
+19 -  Tem um projeto irmão
+
+20 - Fácil de aprender
+
+- Filosofia
+    Selecioar 
+    Encadear
+    Encapsular
+    Iterar Implícitamente
+
+- Organização
+    da Biblioteca
+
+- Seletores Simples
+    - ID
+    - Classe
+    - Elemento
+    - Grupo
+
+- Seletores de Hierarquia (Compostos)
+- Árvore
+    (pai, filho,irmao,adjacente)
+
+Seletores de filtros
