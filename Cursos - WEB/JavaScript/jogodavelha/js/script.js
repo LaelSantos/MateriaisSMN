@@ -20,7 +20,7 @@ $(function(){
             return false;
         }
     }
-  
+   
     
     $(".casa").click(function(){
         var bg = $(this).css("background-image");
@@ -40,8 +40,10 @@ $(function(){
                 ){
                 $("#resultado").html("<h1>O jogador " + vencedor + " venceu! </h1>");
                 $(".casa").off("click");
-            }  
-        }
+            }
+               
+        } 
+        
         
     
 });

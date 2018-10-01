@@ -239,3 +239,16 @@ Eventos são interações com documento Web
 EVENTO é a ação
 manipulador de evento é a função da ação
 
+DOM arvore dom
+
+
+AJAX - Asynchronous
+	JavaScript and XML 
+
+Objeto
+	XHTMLRequest
+
+	Carregamento de Conteúdos
+com JavaScript e XML, TXT, JSP ...
+
+Utilizada para carregar qualquer conteudo dinâmico utilizando JavaScript
