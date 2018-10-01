@@ -6,19 +6,18 @@
                <style>
                    body {background-color: #000;}
                    #xti {display: block; margin: 20px auto;}
+                   div {color: white; align-content: center;}
                </style> 
-               <script type="text/javascript">
-                    function ligar(){
-                        window.document.getElementById("xti").src = "img/xlamp_on.png";
-                    }
-                  
-               </script>
+               <script type="text/javascript" src="js/script03.js"></script>
+               <script type="text/javascript" src="js/cookie.js"></script>
         </head>
         <!-- onload="alert('carregado')"   -->
         <body >
             <!-- <img id="xti" onmouseover="alert('Olá');" src="xlamp_off.png"/>
             <img id="xti" onclick="alert('Olá');" src="xlamp_off.png"/> -->
-            <img id="xti" onclick="ligar();" src="img/xlamp_off.png"/>
+            <img id="xti" src="img/xlamp_off.png"/>
             
+           <div id="horas">00:00:00</div>     
+
         </body>
     </html>
