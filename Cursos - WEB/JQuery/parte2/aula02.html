@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery Aula01</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/exemplos/aula02.js"></script>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        thead th {
+            background: #000;
+            color: #FFF;
+        }
+        thead, tr td, tr th{
+            border: 2px solid #000;
+            padding: 2px 6px;
+            text-align: center;
+
+        }
+        .impar{background: #CCC}
+        .destaque{ background: #000; color: #fff;}
+    </style>
+    
+</head>
+<body>
+    <table id="filmes">
+        <thead>
+            <tr>
+                <th >Filme</th>
+                <th scope="col">Gênero</th>
+                <th scope="col">Duração</th>
+            </tr>
+        </thead>  
+        <tbody>
+            <tr>
+                <th scope="row">Chico Xavier</th>
+                <td>Drama</td>
+                <td>124'</td>
+            </tr>
+            <tr>
+                <th scope="row">O Bem Amado</th>
+                <td>Comédia</td>
+                <td>132'</td>
+            </tr>
+            <tr>
+                <th scope="row">O Auto da Compadecida</th>
+                <td>Comédia</td>
+                <td>105'</td>
+            </tr>
+            <tr>
+                <th scope="row">Carandiru</th>
+                <td>Crime</td>
+                <td>132'</td>
+            </tr>
+            <tr>
+                <th scope="row">Central do Brasil</th>
+                <td>Drama</td>
+                <td>113'</td>
+            </tr>
+            <tr>
+                <th scope="row">Cidade de Deus</th>
+                <td>Crime</td>
+                <td>130'</td>
+            </tr>
+            <tr>
+                <th scope="row">Deus é Brasileiro</th>
+                <td>Comédia</td>
+                <td>110'</td>
+            </tr>
+            <tr>
+                <th scope="row">Dona Flor e seus Dois Maridos</th>
+                <td>Biográfico</td>
+                <td>120'</td>
+            </tr>
+            <tr>
+                <th scope="row">Lula, O Filho do Brasil</th>
+                <td>Comédia</td>
+                <td>129'</td>
+            </tr>
+            <tr>
+                <th scope="row">Tropa de Elite</th>
+                <td>Ação</td>
+                <td>118'</td>
+            </tr>
+            
+        </tbody> 
+     </table>
+</body>
+</html>

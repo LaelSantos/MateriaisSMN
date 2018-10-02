@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 15 - </title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/aula/16.js"></script>
+    <style type="text/css">
+       
+        div{
+            
+            font: 15px verdana;
+            padding: 2px;
+            
+        }
+
+        fieldset{
+            background-color: #CCC; 
+        }
+       #mensagem{
+        border:5px dashed black;
+        padding: 30px 30px;
+        background-color: #CCC; 
+       }
+       
+    </style>
+</head>
+
+<body>
+   <div id="mensagem"></div><br>
+    <fieldset>
+        <legend>Formulário</legend>
+
+        <div>
+            Text:
+            <input type="text" name="texto"/>
+        </div>
+        <div>
+        Select:
+            <select id="pais">
+                    <option value="BR" selected="selected">Brasil</option>
+                    <option >EUA</option>
+                    <option >Portugal</option>
+                    <option disabled="disabled">Japão</option>
+                    <option disabled="disabled">Argentina</option>
+                </select>
+        </div>
+        TextArea:<br>
+        <textarea id="textarea" rows="5" cols="30" tabindex="1" placeholder="Escreva aqui..."></textarea>
+
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+    </fieldset>
+</body>
+
+</html>

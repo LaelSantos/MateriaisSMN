@@ -67,3 +67,36 @@ porque usar jQuery?
     (pai, filho,irmao,adjacente)
 
 Seletores de filtros
+
+Manipulação DOM 
+
+append();       dentro na ultima posição
+prepend();      dentro na primeira posição
+after();        fora e após o Elemento
+before();       forta e antes do Elemento
+wrap();         envolve outro Elemento
+clone();        faz uma cópia do Elemento
+
+Manipulação DOM: Remoção
+
+remove elementos alvos
+remove();
+
+limpa elementos internos
+empty()
+
+remove o elemento envolvente
+unwrap();
+
+Manipulação CSS
+    css();
+    hasClass();
+    removeClass();
+    addClass();
+
+Posicionamento
+    offset();
+    position();
+
+Dimensões 
+    hidth(); height();
