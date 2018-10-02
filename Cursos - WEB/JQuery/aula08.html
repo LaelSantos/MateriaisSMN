@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 05</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/aula/08.js"></script>
+    <style>
+        div{
+            padding: 5px 2px;
+        }
+        fieldset{
+            background-color: #CCC;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Formulário</legend>
+        <div>
+            <label>Text:</label>
+
+            <input type="text" name="texto" />
+        </div>
+
+        <div>
+
+            <Label>Radios:</Label>
+            <input type="radio" name="feminino">Feminino
+            <input type="radio" name="masculino">Masculino<br>
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password">
+        </div>
+        <div>
+            <label>checkbox:</label>
+            <input type="checkbox" name="html" value="html">HTML
+            <input type="checkbox" name="css" value="css">CSS
+            <input type="checkbox" name="css" value="css">JQUERY<br>
+        </div>
+        <div>
+            <select id="pais">
+                <option value="BR" selected="selected">Brasil</option>
+                <option >EUA</option>
+                <option >Portugal</option>
+                <option disabled="disabled">Japão</option>
+                <option disabled="disabled">Argentina</option>
+            </select>
+        </div>
+        <div>
+            File:
+            <input type="file" id="curriculo"><input type="submit" value="Enviar arquivo..">
+        </div>
+        <div>
+            Textarea:<br />
+
+            <textarea rows="6" cols="40" tabindex="1" placeholder="Escreva aqui"></textarea>
+
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset" />
+            <input type="button" value="Button">
+        </div>
+    </fieldset>
+</body>
+
+</html>
