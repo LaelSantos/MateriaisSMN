@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery Plugins 01 - Validação </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.validate.min.js"></script>
+    <style type="text/css"></style>
+    <script type="text/javascript">
+        $(function(){
+        
+            $("#formulario").validate({
+                messages:{
+                    required: "Email Obrigatório",
+                    email: "Email Inválido"
+                }
+            });
+         
+        });
+
+    </script>
+</head>
+
+<body>
+  <form id="formulario">
+  <fieldset>
+      <div>
+          <label for="nome">Nome:</label><br />
+          <input type="text" name="nome" class="required" />
+      </div>
+      <div>
+          <label for="email">E-mail:</label><br />
+          <input type="text" name="email" class="required email"  />
+      </div>
+      <input type="submit" value="Gravar"  />
+  </fieldset>
+</form>
+</body>
+
+</html>

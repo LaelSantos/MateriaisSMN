@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery Plugins 02 - Máscaras </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="js/plugins/jquery-treeView/jquery.treeview.css" />
+    <script type="text/javascript" src="js/plugins/jquery-treeView/jquery.treeview.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $("#browser").treeview();
+        });
+
+    </script>
+</head>
+
+<body>
+    <ul class="filetree treeview" id="browser">
+        <li class="collapsable">
+            <div class="hitarea collapsable-hitarea">
+                <span class="folder">Folder 1</span>
+            </div><br/>
+            <ul>
+                <li class="last">
+                    <span class="file">Item 1.1</span>
+                </li>
+            </ul>
+        </li>
+        <li class="collapsable">
+            <div class="hitarea collapsable-hitarea">
+                    <span class="folder">Folder 2</span><br/>
+            </div>
+            <ul id="folder21"><br/>
+                <li>
+                        <span class="folder">Subfolder 2</span>
+                    <ul><br/>
+                        <li>
+                            <span class="file">File 2.1.1</span>
+                        </li><br/>
+                        <li class="last">
+                            <span class="file">File 2.1.2</span>
+                        </li><br/>
+                    </ul>
+                </li>
+                <li class="last"><br/>
+                    <span class="file">File 2.2</span><br/>
+                </li>
+            </ul>
+        </li>
+        <li class="closed expandable"><br/>
+            <div class="hitarea collapsable-hitarea"><span class="folder">Folder 3 </span></div><br/>
+        </li>
+        <li class="closed expandable"><br/>
+            <div class="hitarea collapsable-hitarea"><span class="folder">Folder 4</span> </div><br/>
+        </li>
+    </ul>
+    </li>
+    </ul>
+</body>
+
+</html>

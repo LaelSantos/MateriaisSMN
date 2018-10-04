@@ -3,18 +3,31 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>jQuery UI 01 -  Introduçãop a jQueryUI</title>
+    <title>jQuery UI 06 - Selecionador de Datas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript">
         $(function(){
-            $("#date").datepicker(); 
+            /*
+            $("#date").datepicker({
+                showOn: "button",
+                buttonnImage: "img/calendar.gif",
+                buttonnImageOnly: true
+            });
+            */
+            $("#date").datepicker($.datepicker.regional["pt-BR"]);
+            
         });
     </script>
+    <style type="text/css">
+        
+    </style>    
 </head>
 <body>
-    Date: <input type="text" id="date" />
+
+    <p>Date: <input type="text" id="date"> </p>
+
 </body>
 </html>

@@ -3,18 +3,28 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>jQuery UI 01 -  Introduçãop a jQueryUI</title>
+    <title>jQuery UI 10 - Elementos Redimensionáveis </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <style type="text/css">
+        #resizable { width: 150px; height: 150px; padding: 0.5em;}
+        #resizable h3 { text-align: center; margin: 0;
+        }
+    </style>
     <script type="text/javascript">
         $(function(){
-            $("#date").datepicker(); 
+            $("#resizable").resizable();
         });
     </script>
 </head>
 <body>
-    Date: <input type="text" id="date" />
+
+    <div id="resizable" class="ui-widget-content">
+        <h3 class="ui-widget-header">Resizable</h3>
+    </div>
+
+    <textarea id="resizable" cols="5" rows="20"></textarea>
 </body>
 </html>

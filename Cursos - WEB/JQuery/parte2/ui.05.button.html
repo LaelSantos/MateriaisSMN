@@ -3,27 +3,39 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>jQuery Cores 03 -  Auto Complete jQueryUI</title>
+    <title>jQuery UI 05 - ButtonI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript">
         $(function(){
-             
+             $("a").button({
+                 icons: {primary: "ui-icon-lightbulb"},
+                 text: true
+             });
+
+             $("#checks").buttonset();
+             $("#radios").buttonset();
+
         });
     </script>
     <style type="text/css">
-        .ui-autocomplete-loading{
-            background: white url('img/ajax.gif') right center no-repeat;
-        }
+        
     </style>    
 </head>
 <body>
 
     <a href="#">Botão A</a>
-    <div>
-       
+
+    <div id="checks">
+        <input type="checkbox" id="check1" /><label for="check1">X</label>
+        <input type="checkbox" id="check2" /><label for="check2">T</label>
+        <input type="checkbox" id="check3" /><label for="check3">I</label>
+    </div>
+    <div id="radios">
+        <input type="radio" id="radio1"><label for="radio1">Homem</label>
+        <input type="radio" id="radio2"><label for="radio2">Mulher</label>
     </div>
 
 </body>
