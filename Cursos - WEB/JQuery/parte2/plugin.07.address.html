@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery Plugins 06 - zipCode </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   
+ 
+</head>
+
+<body>
+    <input type="text" value="" id="zipCode"/> (70294-000)
+    <form>
+        <fieldset>
+            <span>Street:</span><input type="text" id="street"/><br/>
+            <span>District:</span><input type="text" id="district"/><br/>
+            <span>City:</span><input type="text" id="city"/><br/>
+            <span>State:</span><input type="text" id="state"/><br/>
+        </fieldset>
+    </form>
+
+    <div id="returns"></div>
+
+    <div id="map" style="width: 300px; height: 300px"></div>
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJD0OqfQwUpkZM2KG6UoPvs8Zsr41eXZg&callback=initMap"></script>
+    <script type="text/javascript" src="js/plugins/jquery.jZipCode.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            
+           $("#zipCode").jZipCode({
+               streetTarget: "#street",
+               districtTarget: "#district",
+               cityTarget: "#city",
+               stateTarget: "#state", 
+               multipleReturns: "#returns",
+               keyUpDelay: 1500,
+               showMap: "map" 
+           });
+    
+        });
+    
+        </script>
+</body>
+
+</html>
